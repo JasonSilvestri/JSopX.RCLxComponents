@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSopX.RCLxComponents", "JSopX.RCLxComponents\JSopX.RCLxComponents.csproj", "{C7E3FD88-5582-4F0F-8CEF-C74AF26E080B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSopX.RCLxComponents", "JSopX.RCLxComponents\JSopX.RCLxComponents.csproj", "{C7E3FD88-5582-4F0F-8CEF-C74AF26E080B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSopX.ClassLibrary", "JSopX.ClassLibrary\JSopX.ClassLibrary\JSopX.ClassLibrary.csproj", "{C1DD5A6D-3D97-4455-88CD-3D4D488916D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C7E3FD88-5582-4F0F-8CEF-C74AF26E080B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7E3FD88-5582-4F0F-8CEF-C74AF26E080B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E3FD88-5582-4F0F-8CEF-C74AF26E080B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DD5A6D-3D97-4455-88CD-3D4D488916D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DD5A6D-3D97-4455-88CD-3D4D488916D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DD5A6D-3D97-4455-88CD-3D4D488916D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DD5A6D-3D97-4455-88CD-3D4D488916D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
