@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor"  InitialTargets="RCLxComponentsReferencePathConfigCheck">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -16,17 +16,21 @@
   </ItemGroup>
 
 
-    
-  <Import Project="..\PathConfig.targets" Condition="Exists('..\PathConfig.targets')" />
-
 
   <!--Option 1: Original-->
 
- 
-  <ItemGroup>
+  <!-- Import if the file exists -->
+  <Import Project="..\PathConfig.targets" Condition="Exists('..\PathConfig.targets')" />
+
+  <!-- Default static project references if the file does not exist -->
+  <ItemGroup Condition="Exists('..\PathConfig.targets')">
     <ProjectReference Include="$(RCLxComponentsClassLibraryPath)\JSopX.ClassLibrary.csproj" />
-    <!--<ProjectReference Include="..\JSopX.ClassLibrary\JSopX.ClassLibrary\JSopX.ClassLibrary.csproj">
-    </ProjectReference>-->
+  </ItemGroup>
+
+
+  <!-- Default static project references if the file does not exist -->
+  <ItemGroup Condition="!Exists('..\PathConfig.targets')">
+    <ProjectReference Include="..\JSopX.ClassLibrary\JSopX.ClassLibrary\JSopX.ClassLibrary.csproj" />
   </ItemGroup>
 
 
