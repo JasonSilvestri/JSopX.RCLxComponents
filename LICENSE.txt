@@ -1,17 +1,17 @@
-﻿jSilvestri.com BETA v 2024 the JSopX™ Open Project EXperiences Collection: 
-[JSopX™ JSopX.RCLxComponents Project](https://github.com/JasonSilvestri/JSopX.RCLxComponents.git)
+﻿From the jSilvestri.com BETA v 2025 the Jason Silvestri Open Project EXperiences (JSopX™) Collection: 
 
-Phase 1 of 4:
+Featuring, the JSopX™ JSopX.RCLxComponents Project: https://github.com/JasonSilvestri/JSopX.RCLxComponents.git
 
-[Licensed under MIT](https://github.com/JasonSilvestri/JSopX.RCLxComponents/blob/master/LICENSE.txt)
+Licensed under MIT: https://github.com/JasonSilvestri/JSopX.RCLxComponents/blob/master/LICENSE.txt
 
-© 2024 Jason Silvestri · All Rights Reserved  
+© 2025 Jason Silvestri · All Rights Reserved  
 
 ============================================================================
 Authors & Developers of Code: Jason Silvestri, 
 Solution Architect, Lead Sr. Multi-Platform Software Engineer & .NET Full-Stack Developer
 
 Ownership: Jason Silvestri
+www.JSopX.com
 ============================================================================
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
