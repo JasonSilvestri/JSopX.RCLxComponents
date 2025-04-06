@@ -198,7 +198,7 @@ Verify that all NuGet packages are up to date:
 
 ## **Step 4: Be Sure to Build and Run**
 
-Building and Running the `JSopX.BridgeToFar` Project in Visual Studio is also another simple task.
+Building and Running the `JSopX.BridgeTooFar` Project in Visual Studio is also another simple task.
 
 ### **Step: 4.1: Build and Run**:
 
@@ -210,7 +210,7 @@ Building and Running the `JSopX.BridgeToFar` Project in Visual Studio is also an
 
 ### **Step: 4.2: And Now Your Done**:
 
-Assuming the `JSopX.BridgeToFar` Project is running as expected, **you are now done** with the **installation** and **execution** of the project!
+Assuming the `JSopX.BridgeTooFar` Project is running as expected, **you are now done** with the **installation** and **execution** of the project!
 
 1. **Skip Remaining Steps**: 
    - Technically, you could skip to the [Next Steps](#next-steps) section if you are on a project-by-project installation mission.
